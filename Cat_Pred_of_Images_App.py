@@ -8,8 +8,6 @@ st.title("Category Prediction of Images")
 uploaded_file = st.file_uploader("Upload an image from your PC", type=["jpg", "png", "jpeg"])
 image_url = st.text_input("Or paste the URL of an image")
 
-!pip install roboflow
-
 from roboflow import Roboflow
 
 rf = Roboflow(api_key="A0HwSSkoqIrnz9hxlrBs")
