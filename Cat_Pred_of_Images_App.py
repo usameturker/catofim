@@ -5,6 +5,8 @@ from urllib.request import urlopen
 
 st.title("Category Prediction of Images")
 
+st.image('https://static.thestudentroom.co.uk/cms/sites/default/files/2023-04/prediction%20article.png',use_column_width=True)
+
 uploaded_file = st.file_uploader("Upload an image from your PC", type=["jpg", "png", "jpeg"])
 image_url = st.text_input("Or paste the URL of an image")
 
